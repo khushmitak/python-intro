@@ -52,3 +52,38 @@ friends = ["Jacob", "Hannah", "Jake", "Barbara"]
 print(friends[0])
 friends[0] = "Alice"
 print(friends[0:2])
+
+#lists functions
+lucky_numbers = [4, 11, 24, 16, 1]
+fruits = ["Apple", "Orange", "Banana", "Kiwi", "Strawberry"]
+
+# extend function for list: take one list and append it to the end of other list
+fruits.extend(lucky_numbers)
+print(fruits)
+
+#add individual elements to the end of list using append function
+fruits.append("Blueberries")
+
+#add individual elements to anywhere in the list using insert function
+fruits.insert(1, "blackberries")
+
+#remove elements
+fruits.remove("blackberries")
+
+#remove element from the end of the list
+fruits.pop()
+
+#clear/remove the entire list
+fruits.clear()
+
+#look up if an element is present in the list
+print(fruits.index("blackberries"))
+
+#can get the count of elements in the list
+print(fruits.count("orange"))
+
+#sort the list
+fruits.sort()
+
+#copy a list
+fruits2 = fruits.copy()

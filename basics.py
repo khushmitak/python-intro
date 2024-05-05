@@ -43,7 +43,12 @@ print(result)
 color = input("Enter any color: ")
 plural_noun = input("Enter any plural noun: ")
 celebrity = input("Enter any celebrity name: ")
-
 print("Roses are " + color)
 print(plural_noun + " are blue")
 print("I love " + celebrity)
+
+#lists
+friends = ["Jacob", "Hannah", "Jake", "Barbara"]
+print(friends[0])
+friends[0] = "Alice"
+print(friends[0:2])

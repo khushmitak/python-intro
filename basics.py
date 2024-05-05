@@ -29,5 +29,12 @@ print(pow(3, 3))
 print(sqrt(36))
 
 #input from users
-name = input("Please enter your naem: ")
+"""name = input("Please enter your name: ")
 print("Hello " + name + "!")
+"""
+
+#basic calculator
+num1 = input("Please enter a number: ")
+num2 = input("Please enter another number: ")
+result = float(num1) + float(num2)
+print(result)

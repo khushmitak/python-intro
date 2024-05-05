@@ -27,3 +27,7 @@ my_num= 5
 print(str(my_num) + " is my favorite number!")
 print(pow(3, 3))
 print(sqrt(36))
+
+#input from users
+name = input("Please enter your naem: ")
+print("Hello " + name + "!")

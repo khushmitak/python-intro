@@ -29,12 +29,21 @@ print(pow(3, 3))
 print(sqrt(36))
 
 #input from users
-"""name = input("Please enter your name: ")
+name = input("Please enter your name: ")
 print("Hello " + name + "!")
-"""
+
 
 #basic calculator
 num1 = input("Please enter a number: ")
 num2 = input("Please enter another number: ")
 result = float(num1) + float(num2)
 print(result)
+
+#madlibs
+color = input("Enter any color: ")
+plural_noun = input("Enter any plural noun: ")
+celebrity = input("Enter any celebrity name: ")
+
+print("Roses are " + color)
+print(plural_noun + " are blue")
+print("I love " + celebrity)

@@ -77,7 +77,7 @@ fruits.pop()
 fruits.clear()
 
 #look up if an element is present in the list
-print(fruits.index("blackberries"))
+print(fruits.index("apple"))
 
 #can get the count of elements in the list
 print(fruits.count("orange"))
@@ -91,3 +91,9 @@ fruits2 = fruits.copy()
 #TUPLES: TUPLE is immutable
 coordinates = (4, 5)
 print(coordinates[1])
+
+#functions
+def say_hi(name, age):
+    print("Hello " + name + ", you are " + str(age))
+    
+say_hi("Hannah", 24)

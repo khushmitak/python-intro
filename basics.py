@@ -87,3 +87,7 @@ fruits.sort()
 
 #copy a list
 fruits2 = fruits.copy()
+
+#TUPLES: TUPLE is immutable
+coordinates = (4, 5)
+print(coordinates[1])

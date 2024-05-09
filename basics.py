@@ -97,3 +97,16 @@ def say_hi(name, age):
     print("Hello " + name + ", you are " + str(age))
     
 say_hi("Hannah", 24)
+
+#return statements
+def cube(num):
+    return num*num*num
+
+result = cube(3)
+print(result)
+
+#if statements
+is_male = True
+if is_male:
+    print("You are a male.")
+    

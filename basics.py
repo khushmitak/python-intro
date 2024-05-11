@@ -123,3 +123,17 @@ def max_num(num1, num2, num3):
         return num3
 
 print(max_num(3,4,5))
+
+#advanced calculator
+num1 = float(input("Please enter a number: "))
+op = input("Please an operator: ")
+num2 = float(input("Please enter another number: "))
+
+if op == "+":
+    print(num1 + num2)
+elif op == "-":
+    print(num1 - num2)
+elif op == "*":
+    print(num1 * num2)
+else: 
+    print(num1 / num2)

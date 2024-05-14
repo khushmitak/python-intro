@@ -155,3 +155,5 @@ monthConversions = {
     "Nov": "November",
     "Dec": "December"
 }
+print(monthConversions["Nov"])
+print(monthConversions("Luv", "Not a valid value"))
